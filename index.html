@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KleanChat Lite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" role="main">
+        <h1>🧼KleanChat Lite</h1>
+        <div class="chat-box" id="chatBox" role="log" aria-label="Chat messages"></div>
+        <textarea 
+            class="message" 
+            id="userInput" 
+            placeholder="Type your message here..." 
+            aria-label="Message input"
+            rows="3"></textarea>
+        <button id="sendButton" aria-label="Send message">Send</button>
+        <button id="clearButton" aria-label="Clear all messages">Clear Chat</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
