@@ -59,17 +59,16 @@ function censorMessage(message) {
     return censoredMessage;
 }
 
-// Banned words array
 const bannedWords = [
     "idiot", "fool", "dumb", "damn", "stupid", "loser", "ugly",
-    "suck", "moron", "jerk", "trash", "lame", "shut up", "douche",
-    "bastard", "crap", "bugger", "arse", "dick", "screw you",
+    "noob","suck", "moron", "jerk", "trash", "lame", "shut up", 
+    "douche","bastard", "crap", "bugger", "arse", "dick", "screw you",
     "nonsense", "bloody", "silly", "dork", "freak", "weirdo",
     "nerd", "pathetic", "cheater", "toxic", "hate", "kill", "losing",
     "garbage", "smelly", "gross", "mad", "insane", "creep", "whack",
     "useless", "chump", "dunce", "twit", "nitwit", "imbecile", "sissy",
-    "dirtbag", "knucklehead", "scum", "scumbag", "punk", "dork", "dimwit", "fuck","fucking","asshole"
-]
+    "dirtbag", "knucklehead", "scum", "scumbag", "punk", "dork", "dimwit",
+    "fuck","fucking","asshole","fucker"]
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded');    
